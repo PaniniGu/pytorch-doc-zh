@@ -9,7 +9,9 @@ torch.cuda
 Random Number Generator
 -------------------------
 .. autofunction:: get_rng_state
+.. autofunction:: get_rng_state_all
 .. autofunction:: set_rng_state
+.. autofunction:: set_rng_state_all
 .. autofunction:: manual_seed
 .. autofunction:: manual_seed_all
 .. autofunction:: seed
@@ -21,6 +23,8 @@ Communication collectives
 -------------------------
 
 .. autofunction:: torch.cuda.comm.broadcast
+
+.. autofunction:: torch.cuda.comm.broadcast_coalesced
 
 .. autofunction:: torch.cuda.comm.reduce_add
 
@@ -40,6 +44,10 @@ Streams and events
 Memory management
 -----------------
 .. autofunction:: empty_cache
+.. autofunction:: memory_allocated
+.. autofunction:: max_memory_allocated
+.. autofunction:: memory_cached
+.. autofunction:: max_memory_cached
 
 NVIDIA Tools Extension (NVTX)
 -----------------------------

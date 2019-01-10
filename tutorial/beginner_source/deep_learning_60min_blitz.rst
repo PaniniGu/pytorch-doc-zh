@@ -10,7 +10,7 @@ Goal of this tutorial:
 
 *This tutorial assumes that you have a basic familiarity of numpy*
 
-.. Note:: 
+.. Note::
     Make sure you have the `torch`_ and `torchvision`_ packages installed.
 
 .. _torch: https://github.com/pytorch/pytorch
@@ -30,7 +30,7 @@ Goal of this tutorial:
     :figure: /_static/img/tensor_illustration_flat.png
 
 .. galleryitem:: /beginner/blitz/autograd_tutorial.py
-    :figure: /_static/img/Variable.png
+    :figure: /_static/img/autodiff.png
 
 .. galleryitem:: /beginner/blitz/neural_networks_tutorial.py
     :figure: /_static/img/mnist.png
